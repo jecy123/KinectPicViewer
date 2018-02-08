@@ -1,0 +1,169 @@
+﻿生成启动时间为 2017/12/13 16:16:45。
+     1>项目“C:\Qt\qtProjects\picDemo2\picDemo2.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CustomBuild:
+         Moc'ing basewidget.h...
+     1>C:\Qt\qtProjects\picDemo2\basewidget.h(20): warning : Signals cannot be declared virtual
+         Moc'ing kinectimpl.h...
+         Moc'ing menuwidget.h...
+         Moc'ing pictureview.h...
+         Moc'ing widget.h...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_basewidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_basewidget.cpp, Release\moc_basewidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_kinectimpl.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_kinectimpl.cpp, Release\moc_kinectimpl.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_menuwidget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_menuwidget.cpp, Release\moc_menuwidget.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_pictureview.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_pictureview.cpp, Release\moc_pictureview.cpp.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(935,5): warning MSB8027: Two or more files with the name of moc_widget.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are Debug\moc_widget.cpp, Release\moc_widget.cpp.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I. /IF:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition /I..\..\..\OpenCV\opencv\build\include /I"..\..\..\Program Files\Microsoft SDKs\Kinect\v2.0_1409\inc" /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtWidgets /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtGui /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtANGLE /IC:\Qt\Qt5.6.3\5.6.3\msvc2013_64\include\QtCore /Idebug /I"C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\mkspecs\win32-msvc2013" /I"C:\Program Files (x86)\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /Od /D _WINDOWS /D UNICODE /D WIN32 /D WIN64 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt -w34100 -w34189 -w44996 basewidget.cpp Debug\moc_basewidget.cpp Debug\moc_kinectimpl.cpp Debug\moc_menuwidget.cpp Debug\moc_pictureview.cpp Debug\moc_widget.cpp kinectimpl.cpp main.cpp menuwidget.cpp pictureutils.cpp pictureview.cpp screenutils.cpp widget.cpp
+         basewidget.cpp
+     1>basewidget.cpp(37): warning C4100: “y”: 未引用的形参
+     1>basewidget.cpp(37): warning C4100: “x”: 未引用的形参
+     1>basewidget.cpp(41): warning C4100: “dy”: 未引用的形参
+     1>basewidget.cpp(41): warning C4100: “dx”: 未引用的形参
+         moc_basewidget.cpp
+         moc_kinectimpl.cpp
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vy”: 未引用的形参
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vx”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(43): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(44): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(45): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(46): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(47): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(48): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(49): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(50): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(51): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(52): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(81): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(82): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(84): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(85): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(87): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(88): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(89): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(91): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(92): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(93): warning C4100: “args”: 未引用的形参
+         moc_menuwidget.cpp
+         moc_pictureview.cpp
+         moc_widget.cpp
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vy”: 未引用的形参
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vx”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(43): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(44): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(45): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(46): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(47): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(48): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(49): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(50): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(51): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(52): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(81): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(82): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(84): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(85): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(87): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(88): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(89): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(91): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(92): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(93): warning C4100: “args”: 未引用的形参
+         kinectimpl.cpp
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vy”: 未引用的形参
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vx”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(43): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(44): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(45): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(46): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(47): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(48): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(49): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(50): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(51): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(52): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(81): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(82): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(84): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(85): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(87): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(88): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(89): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(91): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(92): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(93): warning C4100: “args”: 未引用的形参
+     1>kinectimpl.cpp(36): warning C4100: “args”: 未引用的形参
+     1>kinectimpl.cpp(41): warning C4100: “args”: 未引用的形参
+     1>kinectimpl.cpp(59): warning C4100: “args”: 未引用的形参
+     1>kinectimpl.cpp(66): warning C4100: “args”: 未引用的形参
+         main.cpp
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vy”: 未引用的形参
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vx”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(43): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(44): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(45): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(46): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(47): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(48): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(49): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(50): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(51): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(52): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(81): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(82): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(84): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(85): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(87): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(88): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(89): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(91): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(92): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(93): warning C4100: “args”: 未引用的形参
+         menuwidget.cpp
+     1>menuwidget.cpp(24): warning C4100: “event”: 未引用的形参
+         pictureutils.cpp
+         pictureview.cpp
+         screenutils.cpp
+         widget.cpp
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vy”: 未引用的形参
+     1>f:\programdesign\vs2013\kinectgesturerecognition\kinectgesturerecognition\utils.h(54): warning C4100: “vx”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(43): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(44): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(45): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(46): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(47): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(48): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(49): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(50): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(51): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(52): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(81): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(82): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(84): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(85): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(87): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(88): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(89): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(91): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(92): warning C4100: “args”: 未引用的形参
+     1>F:\ProgramDesign\VS2013\KinectGestureRecognition\KinectGestureRecognition\GestureRecgnition.h(93): warning C4100: “args”: 未引用的形参
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\picDemo2.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib /LIBPATH:C:\utils\my_sql\my_sql\lib /LIBPATH:C:\utils\postgresql\pgsql\lib /LIBPATH:C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib /LIBPATH:"C:\Program Files (x86)\Visual Leak Detector\lib\Win64" C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\qtmaind.lib shell32.lib F:\ProgramDesign\VS2013\KinectGestureRecognition\x64\Debug\KinectGestureRecognition.lib "C:\Program Files\Microsoft SDKs\Kinect\v2.0_1409\Lib\x64\Kinect20.lib" C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Widgetsd.lib C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Guid.lib C:\Qt\Qt5.6.3\5.6.3\msvc2013_64\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"debug\picDemo2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X64 "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" x64\Debug\basewidget.obj
+         x64\Debug\moc_basewidget.obj
+         x64\Debug\moc_kinectimpl.obj
+         x64\Debug\moc_menuwidget.obj
+         x64\Debug\moc_pictureview.obj
+         x64\Debug\moc_widget.obj
+         x64\Debug\kinectimpl.obj
+         x64\Debug\main.obj
+         x64\Debug\menuwidget.obj
+         x64\Debug\pictureutils.obj
+         x64\Debug\pictureview.obj
+         x64\Debug\screenutils.obj
+         x64\Debug\widget.obj
+         picDemo2.vcxproj -> C:\Qt\qtProjects\picDemo2\debug\picDemo2.exe
+     1>已完成生成项目“C:\Qt\qtProjects\picDemo2\picDemo2.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:01:13.29
